@@ -1,5 +1,5 @@
 body {
-	background: #5bb795;
+	background: #dbdbdb;
 	margin: 0px;
 	padding: 0px;
 	font-size: 16px;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgb(0, 0, 0);
 	font-family: sans-serif;
 	font-size: 2.0em;
 }
@@ -77,7 +77,8 @@ p {
 }
 
 .box:hover {
-	background: #6de0b5;
+	background: rgb(204 248 255 / 50%);
+	color: black;
 }
 
 .reset {
@@ -87,17 +88,17 @@ p {
 
 .reset:hover {
 	cursor: pointer;
-	color: white;
+	color: rgb(133, 133, 133);
 }
 
 #selectWindow {
 	margin: 100px auto;
-	border: 1px solid #363a29 ;
+	border: 1px solid #363a29;
 	display: none;
 	width: 100%;
 	height: 500px;
 	padding: 10px;
-	background: rgba(0,0,0,0.2);
+	background: rgb(204 248 255 / 50%);
 	z-index: 1;
 }
 
@@ -141,7 +142,7 @@ p {
     text-align: center;
     width: 100px;
     height: 100px;
-    font-size: 35px
+    font-size: 35px;
   }
 
   #ticBox {
